@@ -1,5 +1,6 @@
 # ES_EXTENDED LEGACY DOUBLE JOB 2022
 Bonjour, j'ai remis à jour le es_extended LEGACY pour y intégrer le double job pas disponible sur la dernière version proposée.
+https://discord.com/invite/7qK2xSWJ5T
 
 ### Obligatoire pour faire fonctionner
 Vous devais avoir tout c'est dossier dans votre serveur pour qu'il fonctionne.

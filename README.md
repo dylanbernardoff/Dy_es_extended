@@ -7,6 +7,7 @@ Vous devais avoir tout c'est dossier dans votre serveur pour qu'il fonctionne.
 - [esx-legacy](https://github.com/esx-framework/esx-legacy)
 
 ## Installation
+- Supprimer les tables suivante : `jobs`,`job_grade`,`users`.
 - Importer `es_extended.sql` dans votre base de données.
 - Configurez votre `server.cfg`.
 

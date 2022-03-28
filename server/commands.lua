@@ -221,6 +221,12 @@ ESX.RegisterCommand('reviveall', "admin", function(xPlayer, args, showError)
 	end
 end, false)
 
+ESX.RegisterCommand('revive', "admin", function(xPlayer, args, showError)
+	if GetPlayerName(tonumber(args[1])) ~= nil then
+			TriggerClientEvent('esx_ambulancejob:revive', tonumber(args[1]))
+		end
+end, false)
+
 ESX.RegisterCommand("noclip", 'admin', function(xPlayer, args, showError)
 	xPlayer.triggerEvent('esx:noclip')
 end, false)
